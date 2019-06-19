@@ -23,5 +23,8 @@ public class ProblemsSolver {
 
         PosNeg w6 = new PosNeg();
         System.out.println(w6.posNeg(-4, 5, true));
+
+        MakeBricks_Level2 wh7 = new MakeBricks_Level2();
+        System.out.println(wh7.makeBricks(7,1,11));
     }
 }
