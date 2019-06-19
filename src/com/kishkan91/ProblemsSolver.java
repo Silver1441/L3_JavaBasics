@@ -2,6 +2,7 @@ package com.kishkan91;
 
 import com.kishkan91.problems.Close10;
 import com.kishkan91.problems.MissingChar;
+import com.kishkan91.problems.Or35;
 
 public class ProblemsSolver {
 
@@ -12,5 +13,8 @@ public class ProblemsSolver {
 
         Close10 w2 = new Close10();
         System.out.println(w2.close10(8,13));
+
+        Or35 w3 = new Or35();
+        System.out.println(w3.or35(15));
     }
 }
