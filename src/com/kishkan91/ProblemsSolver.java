@@ -1,6 +1,7 @@
 package com.kishkan91;
 
 import com.kishkan91.problems.Close10;
+import com.kishkan91.problems.Makes10;
 import com.kishkan91.problems.MissingChar;
 import com.kishkan91.problems.Or35;
 
@@ -16,5 +17,8 @@ public class ProblemsSolver {
 
         Or35 w3 = new Or35();
         System.out.println(w3.or35(15));
+
+        Makes10 w4 = new Makes10();
+        System.out.println(w4.makes10(12,-2));
     }
 }
