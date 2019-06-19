@@ -1,9 +1,6 @@
 package com.kishkan91;
 
-import com.kishkan91.problems.Close10;
-import com.kishkan91.problems.Makes10;
-import com.kishkan91.problems.MissingChar;
-import com.kishkan91.problems.Or35;
+import com.kishkan91.problems.*;
 
 public class ProblemsSolver {
 
@@ -20,5 +17,11 @@ public class ProblemsSolver {
 
         Makes10 w4 = new Makes10();
         System.out.println(w4.makes10(12,-2));
+
+        EveryNth w5 = new EveryNth();
+        System.out.println(w5.everyNth("Chocolate", 3));
+
+        PosNeg w6 = new PosNeg();
+        System.out.println(w6.posNeg(-4, 5, true));
     }
 }
