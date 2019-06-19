@@ -32,5 +32,8 @@ public class ProblemsSolver {
 
         CountYZ_Level3 wvh9 = new CountYZ_Level3();
         System.out.println(wvh9.countYZ("will thiz code actually work--one will askz?"));
+
+        GHappy wvh10 = new GHappy();
+        System.out.println(wvh10.gHappy("xggxlggg"));
     }
 }
