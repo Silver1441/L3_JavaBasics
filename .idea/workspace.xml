@@ -26,17 +26,17 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/com/kishkan91/ProblemsSolver.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="321">
-              <caret line="27" column="48" selection-start-line="27" selection-start-column="48" selection-end-line="27" selection-end-column="48" />
+            <state relative-caret-position="510">
+              <caret line="30" column="52" selection-start-line="30" selection-start-column="52" selection-end-line="30" selection-end-column="52" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/com/kishkan91/problems/MakeBricks_Level2.java">
+        <entry file="file://$PROJECT_DIR$/src/com/kishkan91/problems/DoubleChar_Level2.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="221">
-              <caret line="13" column="46" lean-forward="true" selection-start-line="13" selection-start-column="46" selection-end-line="13" selection-end-column="46" />
+            <state relative-caret-position="272">
+              <caret line="16" column="5" selection-start-line="16" selection-start-column="5" selection-end-line="16" selection-end-column="5" />
             </state>
           </provider>
         </entry>
@@ -68,6 +68,7 @@
         <option value="$PROJECT_DIR$/src/com/kishkan91/problems/EveryNth.java" />
         <option value="$PROJECT_DIR$/src/com/kishkan91/problems/PosNeg.java" />
         <option value="$PROJECT_DIR$/src/com/kishkan91/problems/MakeBricks_Level2.java" />
+        <option value="$PROJECT_DIR$/src/com/kishkan91/problems/DoubleChar_Level2.java" />
         <option value="$PROJECT_DIR$/src/com/kishkan91/ProblemsSolver.java" />
       </list>
     </option>
@@ -84,6 +85,8 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="PackagesPane" />
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -113,8 +116,6 @@
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
-      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -218,14 +219,21 @@
       <option name="project" value="LOCAL" />
       <updated>1560973328374</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="problem_8 lvl:2">
+      <created>1560975369929</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1560975369929</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="ToolWindowManager">
     <frame x="-1608" y="-13" width="1616" height="876" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.31233934" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.31619537" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -262,7 +270,8 @@
     <MESSAGE value="problem_4" />
     <MESSAGE value="problem_5, problem_6" />
     <MESSAGE value="problem_7 lvl:2" />
-    <option name="LAST_COMMIT_MESSAGE" value="problem_7 lvl:2" />
+    <MESSAGE value="problem_8 lvl:2" />
+    <option name="LAST_COMMIT_MESSAGE" value="problem_8 lvl:2" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/.idea/modules.xml">
@@ -320,6 +329,13 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/kishkan91/problems/MakeBricks_Level2.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="221">
+          <caret line="13" column="46" selection-start-line="13" selection-start-column="46" selection-end-line="13" selection-end-column="46" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/com/kishkan91/Main.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="119">
@@ -329,15 +345,15 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/kishkan91/ProblemsSolver.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="321">
-          <caret line="27" column="48" selection-start-line="27" selection-start-column="48" selection-end-line="27" selection-end-column="48" />
+        <state relative-caret-position="510">
+          <caret line="30" column="52" selection-start-line="30" selection-start-column="52" selection-end-line="30" selection-end-column="52" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/kishkan91/problems/MakeBricks_Level2.java">
+    <entry file="file://$PROJECT_DIR$/src/com/kishkan91/problems/DoubleChar_Level2.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="221">
-          <caret line="13" column="46" lean-forward="true" selection-start-line="13" selection-start-column="46" selection-end-line="13" selection-end-column="46" />
+        <state relative-caret-position="272">
+          <caret line="16" column="5" selection-start-line="16" selection-start-column="5" selection-end-line="16" selection-end-column="5" />
         </state>
       </provider>
     </entry>

@@ -29,5 +29,8 @@ public class ProblemsSolver {
 
         DoubleChar_Level2 wh8 = new DoubleChar_Level2();
         System.out.println(wh8.doubleChar("Hi-There!"));
+
+        CountYZ_Level3 wvh9 = new CountYZ_Level3();
+        System.out.println(wvh9.countYZ("will thiz code actually work--one will askz?"));
     }
 }
