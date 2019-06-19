@@ -26,5 +26,8 @@ public class ProblemsSolver {
 
         MakeBricks_Level2 wh7 = new MakeBricks_Level2();
         System.out.println(wh7.makeBricks(7,1,11));
+
+        DoubleChar_Level2 wh8 = new DoubleChar_Level2();
+        System.out.println(wh8.doubleChar("Hi-There!"));
     }
 }
