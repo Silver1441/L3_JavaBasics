@@ -1,6 +1,6 @@
 package com.kishkan91.problems;
 
-public class GHappy {
+public class GHappy_Level3 {
     //String-3
     public boolean gHappy(String str) {
         int strLength = str.length();

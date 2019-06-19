@@ -2,7 +2,7 @@ package com.kishkan91;
 
 import com.kishkan91.problems.*;
 
-public class ProblemsSolver {
+public class ProblemSolver {
 
     void solveProblems() {
 
@@ -33,7 +33,7 @@ public class ProblemsSolver {
         CountYZ_Level3 wvh9 = new CountYZ_Level3();
         System.out.println(wvh9.countYZ("will thiz code actually work--one will askz?"));
 
-        GHappy wvh10 = new GHappy();
+        GHappy_Level3 wvh10 = new GHappy_Level3();
         System.out.println(wvh10.gHappy("xggxlggg"));
     }
 }
