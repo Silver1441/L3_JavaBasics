@@ -22,7 +22,7 @@ public class ProblemSolver {
         System.out.println("EveryNth:  " + w5.everyNth("Chocolate", 3));
 
         PosNeg w6 = new PosNeg();
-        System.out.println(w6.posNeg(-4, 5, true));
+        System.out.println("PosNeg:  " + w6.posNeg(-4, 5, false));
 
         MakeBricksLevel2 wh7 = new MakeBricksLevel2();
         System.out.println("MakeBricksLevel2:  " + wh7.makeBricks(7, 1, 11));
