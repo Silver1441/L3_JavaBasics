@@ -6,10 +6,10 @@ public class CountYZLevel3 {
         int strLength = str.length();
         StringBuilder strEnd = new StringBuilder();
 
-        for (int i=0; i<strLength; i++) {
+        for (int i = 0; i < strLength; i++) {
             char ch = str.charAt(i);
-            if (!Character.isLetter(ch) && i!=0) {
-                char chEnd = str.charAt(i-1);
+            if (!Character.isLetter(ch) && i != 0) {
+                char chEnd = str.charAt(i - 1);
                 if (Character.isLetter(chEnd)) {
                     strEnd.append(chEnd);
                 }
@@ -22,7 +22,7 @@ public class CountYZLevel3 {
         strLength = str.length();
         StringBuilder strFormatted = new StringBuilder();
 
-        for (int i=0; i<strLength; i++) {
+        for (int i = 0; i < strLength; i++) {
             ch = str.charAt(i);
             if (ch == 'z' || ch == 'y' || ch == 'Z' || ch == 'Y') {
                 strFormatted = strFormatted.append(ch);
