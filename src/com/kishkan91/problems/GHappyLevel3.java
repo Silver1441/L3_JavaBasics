@@ -13,11 +13,7 @@ public class GHappyLevel3 {
             char ch = str.charAt(i);
             if (ch == 'g' && i != 0) {
                 gCounter++;
-                if (str.charAt(i - 1) == 'g') {
-                    isHappy = true;
-                } else {
-                    isHappy = false;
-                }
+                isHappy = (str.charAt(i - 1) == 'g');
             }
         }
 
