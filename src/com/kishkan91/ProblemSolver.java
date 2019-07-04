@@ -13,7 +13,7 @@ public class ProblemSolver {
         System.out.println("Close10:  " + w2.close10(8, 13));
 
         Or35 w3 = new Or35();
-        System.out.println(w3.or35(15));
+        System.out.println("Or35:  " + w3.or35(13));
 
         Makes10 w4 = new Makes10();
         System.out.println("Makes10:  " + w4.makes10(12, 10));

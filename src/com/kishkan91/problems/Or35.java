@@ -1,16 +1,9 @@
 package com.kishkan91.problems;
 
 public class Or35 {
-    //Warmup-1
+    //Warmup-1: Return true if the given non-negative number is a multiple of 3 or a multiple of 5.
     public boolean or35(int n) {
-        int multThree=n%3;
-        int multFive=n%5;
 
-        if (multThree==0 | multFive==0) {
-            return true;
-        }
-        else {
-            return false;
-        }
+        return (n % 3 == 0 || n % 5 == 0);
     }
 }
