@@ -24,8 +24,8 @@ public class ProblemSolver {
         PosNeg w6 = new PosNeg();
         System.out.println(w6.posNeg(-4, 5, true));
 
-        MakeBricks_Level2 wh7 = new MakeBricks_Level2();
-        System.out.println(wh7.makeBricks(7, 1, 11));
+        MakeBricksLevel2 wh7 = new MakeBricksLevel2();
+        System.out.println("MakeBricksLevel2:  " + wh7.makeBricks(7, 1, 11));
 
         DoubleCharLevel2 wh8 = new DoubleCharLevel2();
         System.out.println("DoubleCharLevel2:  " + wh8.doubleChar("Hi-There!"));
