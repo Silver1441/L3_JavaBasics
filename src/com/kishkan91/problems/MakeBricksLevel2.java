@@ -14,11 +14,7 @@ public class MakeBricksLevel2 {
 
         int xFive = goal / 5;
 
-        if (big >= xFive && small >= goal%5 ||
-                small>=5 && big+1 >= xFive && small-5 >= goal%5){
-            return true;
-        } else {
-            return false;
-        }
+        return (big >= xFive && small >= goal%5 ||
+                small>=5 && big+1 >= xFive && small-5 >= goal%5);
     }
 }
