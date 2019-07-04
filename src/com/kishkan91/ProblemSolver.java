@@ -7,10 +7,10 @@ public class ProblemSolver {
     void solveProblems() {
 
         MissingChar w1 = new MissingChar();
-        System.out.println(w1.missingChar("kitten", 0));
+        System.out.println("MissingChar:  " + w1.missingChar("kitten", 0));
 
         Close10 w2 = new Close10();
-        System.out.println(w2.close10(8,13));
+        System.out.println("Close10:  " + w2.close10(8,13));
 
         Or35 w3 = new Or35();
         System.out.println(w3.or35(15));
