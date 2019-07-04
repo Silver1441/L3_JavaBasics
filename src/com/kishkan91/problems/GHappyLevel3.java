@@ -1,18 +1,18 @@
 package com.kishkan91.problems;
 
-public class GHappy_Level3 {
-    //String-3
+public class GHappyLevel3 {
+    //String-3 :We'll say that a lowercase 'g' in a string is "happy" if there is another 'g'
+    //immediately to its left or right. Return true if all the g's in the given string are happy.
     public boolean gHappy(String str) {
         int strLength = str.length();
         boolean isHappy = false;
         int gCounter = 0;
 
-        for (int i=0; i<strLength; i++) {
+        for (int i = 0; i < strLength; i++) {
             char ch = str.charAt(i);
-            if (ch=='g' && i!=0) {
-                gCounter = gCounter+1;
-                char chPrev = str.charAt(i-1);
-                if (chPrev=='g') {
+            if (ch == 'g' && i != 0) {
+                gCounter++;
+                if (str.charAt(i - 1) == 'g') {
                     isHappy = true;
                 } else {
                     isHappy = false;
@@ -20,11 +20,11 @@ public class GHappy_Level3 {
             }
         }
 
-        if (gCounter==0) {
+        if (gCounter == 0) {
             isHappy = true;
         }
-        //не костыль, а отработка частных исключений с:
-        if (str=="g") {
+
+        if (str.equals("g")) {
             isHappy = false;
         }
 

@@ -33,7 +33,7 @@ public class ProblemSolver {
         CountYZLevel3 wvh9 = new CountYZLevel3();
         System.out.println("CountYZLevel3:  " + wvh9.countYZ("willz thiz code actually work--one will askz?"));
 
-        GHappy_Level3 wvh10 = new GHappy_Level3();
-        System.out.println(wvh10.gHappy("xggxlggg"));
+        GHappyLevel3 wvh10 = new GHappyLevel3();
+        System.out.println("GHappyLevel3:  " + wvh10.gHappy("xgxlggg"));
     }
 }
