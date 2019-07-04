@@ -12,6 +12,6 @@ public class EveryNth {
         for (int x = n; x < str.length(); x = x + n) {
             resultStr.append(str.charAt(x));
         }
-        return str = resultStr.toString();
+        return resultStr.toString();
     }
 }
