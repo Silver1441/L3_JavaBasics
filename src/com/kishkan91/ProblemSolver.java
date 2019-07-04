@@ -19,7 +19,7 @@ public class ProblemSolver {
         System.out.println(w4.makes10(12, -2));
 
         EveryNth w5 = new EveryNth();
-        System.out.println(w5.everyNth("Chocolate", 3));
+        System.out.println("EveryNth:  " + w5.everyNth("Chocolate", 3));
 
         PosNeg w6 = new PosNeg();
         System.out.println(w6.posNeg(-4, 5, true));
